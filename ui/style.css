@@ -1,17 +1,19 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-color:orange;
     margin-top: 75px;
 }
 
 .center {
     text-align: center;
 }
-.container
-{
-    background:grey;
-    font-family:sans-serif;
+
+.container {
+    margin-top: 75px;
+    background-color: grey;
+    font-family: sans-serif;
 }
+
 .text-big {
     font-size: 300%;
 }
@@ -23,4 +25,3 @@ body {
 .img-medium {
     height: 200px;
 }
-
