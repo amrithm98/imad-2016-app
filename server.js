@@ -36,10 +36,10 @@ var htmlTemplate=`<!DOCTYPE html>
         <a href="/">Home</a>
         <hr/>
         <h3>${heading}</h3>
-        <<div>
+        <div>
             ${date}
     </div>
-    <<div>
+    <div>
         ${content}
         </div>
         </div>
