@@ -11,7 +11,7 @@ button.onclick = function() {
         }
     };
     //make req
-    request.open('GET', "http://localhost:8080/counter", true);
+    request.open('GET', "http://amrithm98.imad.hasura-app.io/counter", true);
     request.send(null);
 }
 
@@ -38,6 +38,6 @@ submit.onclick = function() {
     //make req
     var nameInput = document.getElementById('namein');
     var name = nameInput.value;
-    request.open('GET', "http://localhost:8080/submit-name?name=" + name, true);
+    request.open('GET', "http://amrithm98.imad.hasura-app.io/submit-name?name=" + name, true);
     request.send(null);
 };
